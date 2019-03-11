@@ -10,10 +10,10 @@ time.sleep(2)
 
 pt1 = str(input("Accept augmentation offer? [Y|N]"))
 
-if pt1 in ['Y', 'y']:
+if pt1 in ['Y', 'y', 'Yes', 'yes']:
     print ("Perfect! Now then, let us go over the augmentation options.")
 
-elif pt1 in ['n', 'N']:
+elif pt1 in ['n', 'N', 'No', 'no']:
     print ("How unfortunate, I hope you reconsider in the future....")
 
 else:
