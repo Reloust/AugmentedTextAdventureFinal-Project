@@ -1,0 +1,20 @@
+import random
+import time
+
+print ("Welcome Newborn! You are on the verge of starting a new life with the next step of human evolution!")
+time.sleep(6)
+print ("With GeneTech's Augmentations you are able to enhance your body like you could never imagine, however we are still researching the effectiveness of these augments so for now, one per customer.")
+time.sleep(6)
+print ("This is your last chance to turn back, are you ready to be augmented?")
+time.sleep(2)
+
+pt1 = str(input("Accept augmentation offer? [Y|N]"))
+
+if pt1 in ['Y', 'y']:
+    print ("Perfect! Now then, let us go over the augmentation options.")
+
+elif pt1 in ['n', 'N']:
+    print ("How unfortunate, I hope you reconsider in the future....")
+
+else:
+    print ("I'm not sure if I follow you...if you are unsure, take your time to think about this")
